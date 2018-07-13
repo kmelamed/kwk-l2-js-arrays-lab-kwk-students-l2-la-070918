@@ -39,5 +39,7 @@ function removeLastDriver() {
 }
 
 function removeFirstDriver() {
-  var 
+  var newArr = drivers.slice(0);
+  newArr.shift();
+  return newArr; 
 }
