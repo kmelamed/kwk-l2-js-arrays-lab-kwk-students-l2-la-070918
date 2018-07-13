@@ -37,3 +37,7 @@ function removeLastDriver() {
   newArr.pop();
   return newArr;
 }
+
+function removeFirstDriver() {
+  var 
+}
